@@ -1,6 +1,6 @@
 {
   "name": "type-challenges",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Solve TypeScript Challenges",
   "scripts": {
     "commit": "nhb-commit",
