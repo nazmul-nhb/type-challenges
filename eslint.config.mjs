@@ -42,10 +42,8 @@ export default [
 			'@typescript-eslint/no-explicit-any': 'off',
 			'@typescript-eslint/no-empty-object-type': 'off',
 			'@typescript-eslint/no-unused-expressions': 'error',
-			'@typescript-eslint/consistent-type-imports': [
-				'warn',
-				{ prefer: 'type-imports' },
-			],
+			'@typescript-eslint/consistent-type-imports': ['warn', { prefer: 'type-imports' }],
+			'@typescript-eslint/ban-ts-comment': 'off',
 			'no-unused-vars': [
 				'off',
 				{
