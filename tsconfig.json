@@ -1,6 +1,25 @@
 {
-  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "module": "commonjs"
-  }
+    "module": "commonjs",
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "sourceMap": false,
+    "rootDir": "./challenges",
+    "strict": true,
+    "noImplicitAny": false,
+    // "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noEmit": true,
+    "noImplicitThis": true,
+  },
+  "exclude": [
+    "node_modules",
+    "./questions",
+  ],
+  "include": [
+    "challenges"
+  ]
 }

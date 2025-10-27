@@ -1,8 +1,1 @@
-node_modules/
-.DS_Store
-.idea
-dist
-*.log
-*.local
-playground/
-.playgroundcache
+node_modules

@@ -1,38 +1,32 @@
 {
   "name": "type-challenges",
-  "version": "0.0.0",
-  "private": true,
-  "packageManager": "pnpm@8.12.1",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
-  "license": "MIT",
-  "repository": "https://github.com/antfu/type-challenges.git",
+  "version": "1.0.1",
+  "description": "Solve TypeScript Challenges",
   "scripts": {
-    "readme": "esno ./scripts/readme.ts",
-    "build": "esno ./scripts/build.ts",
-    "generate": "esno ./scripts/generate-play.ts",
-    "lint": "eslint .",
-    "translate": "esno ./scripts/translate-cli.ts",
-    "utils:release": "pnpm -C utils release"
+    "commit": "nhb-commit",
+    "lint": "nhb-lint",
+    "fix": "nhb-fix"
   },
-  "dependencies": {
-    "esno": "^4.0.0",
-    "fast-glob": "^3.3.2",
-    "fs-extra": "^11.2.0",
-    "js-yaml": "^4.1.0",
-    "lz-string": "^1.5.0"
+  "keywords": [
+    "type-challenges",
+    "typescript"
+  ],
+  "author": {
+    "name": "Nazmul Hassan",
+    "email": "nazmulnhb@gmail.com",
+    "url": "https://nazmul-nhb.dev"
   },
+  "license": "ISC",
+  "packageManager": "pnpm@10.19.0",
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.0",
-    "@type-challenges/utils": "workspace:*",
-    "@types/fs-extra": "^11.0.4",
-    "@types/js-yaml": "^4.0.9",
-    "@types/lz-string": "^1.5.0",
-    "@types/node": "^20.10.5",
-    "@types/prompts": "^2.4.9",
-    "ansis": "^4.1.0",
-    "eslint": "^8.56.0",
-    "prompts": "^2.4.2",
-    "typescript": "^5.3.3",
-    "utility-types": "^3.10.0"
+    "@eslint/js": "^9.38.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "nhb-scripts": "^1.8.81",
+    "nhb-toolbox": "^4.23.25",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
   }
 }
